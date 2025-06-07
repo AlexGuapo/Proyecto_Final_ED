@@ -6,10 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'i
 from insertion_sort import ordenar_insercion
 
 def ordenar_bucket(lista):
-    """
-    Ordena una lista de números (enteros o decimales) usando Bucket Sort,
-    reutilizando el algoritmo Insertion Sort para cada bucket.
-    """
+    #Ordena una lista de números (enteros o decimales) usando Bucket Sort,reutilizando el algoritmo Insertion Sort para cada bucket.
     if not lista:
         return
 
