@@ -1,4 +1,5 @@
 def heapify(lista, tamaño_heap, raiz):
+    #Asegura que el subárbol con raíz en `raiz` mantenga la propiedad de heap máximo.
     mayor = raiz
     hijo_izquierdo = 2 * raiz + 1
     hijo_derecho = 2 * raiz + 2
